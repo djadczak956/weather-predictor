@@ -17,5 +17,10 @@ Below is where information about the dataset can be found. The data was original
 - Years present: 1961-1990
 
 ### Features
-1. **Date**: The date refers to the date that the rest of the measurements in a row were taken. It is given in `mmddyy` format.   
-2. 
+1. **date** refers to the date that the rest of the measurements in a row were taken. It is given in *mmddyy* format.   
+2. **precipitation** refers to the amount of precipitation on a given date. It is measured in *cm/day*.
+3. **pan_evap** refers to the [pan evaporation](https://en.wikipedia.org/wiki/Pan_evaporation) measurements of the station on a given date. It is measured in *cm/day*. 
+4. **temperature** refers to the mean temperature on a a given date. It is measured in *degrees Centigrade* (an old-fashioned name for *Celcius*). 
+5. **wind_speed** refers to the wind speed (using 10 meters for measurement) on a given day. It is measued in *cm/second*. 
+6. **solar_rad** refers to the amount of [solar radiation](https://www.energy.gov/eere/solar/solar-radiation-basics#:~:text=Solar%20radiation%2C%20often%20called%20the,using%20a%20variety%20of%20technologies.) the station measured on a given day. 
+7. **fao_sge** refers to [FAO Short Grass ETO](https://www.fao.org/land-water/databases-and-software/eto-calculator/en/) measurements in a given day.
